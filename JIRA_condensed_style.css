@@ -7,17 +7,17 @@ Code distributed under LGPL v3 license
 Author : Mossroy
 */
 
-/* Pour que la bannière d'annonce ne fasse pas perdre de place en hauteur quand il n'y a pas d'annonce */
+/* So that the announcement banner does not eat some vertical space when there is no real announcement */
 #announcement-banner {
     padding: 0px;
 }
 
-/* Fond gris pour mieux séparer les différents élements du détail d'une demande */
+/* Grey background to have a clearer separation between zones of a detail view */
 .issue-body-content .module > .mod-header {
     background: #E6E6E6;
 }
 
-/* Pour réduire la taille de la colonne de droite du détail d'une demande */
+/* To reduce the right column width of a detail view */
 #viewissuesidebar, .skinny .split-view #viewissuesidebar {
     width: 20%;
 	padding-left: 10px;
@@ -29,7 +29,7 @@ Author : Mossroy
     line-height: normal;
 }
 
-/* Pour que le texte soit plus petit et l'interligne moins grand dans le détail d'une demande */
+/* So that the text is smaller, and to reduce space between lines, in a detail view */
 body {
     font-size: 12px;
     line-height: normal;
@@ -49,7 +49,7 @@ h1 {
     line-height: normal;
 }
 
-/* Pour que le texte soit plus petit et l'interligne moins grand dans un écran de modification d'une demande */
+/* So that the text is smaller, to reduce space between lines, in a modification view */
 form.aui div.description {
     font-size: 10px;
 	margin: 0px 0px 5px;
@@ -59,7 +59,7 @@ form.aui .field-group{
     margin: 0px 0px;
 }
 
-/* Pour limiter les espaces inutiles dans le détail d'une demande */
+/* To limit some more unused space in a detail view */
 .issue-body-content .module + .module {
     margin-top: 2px;
     padding-top: 2px;
@@ -67,7 +67,7 @@ form.aui .field-group{
 .issue-header .issue-header-content > .aui-page-header {
     padding: 5px 20px 9px;
 }
-/* Pour que les zones de saisie puissent être plus larges dans le détail d'une demande */
+/* So that the form fields can be larger in a creation view */
 form.aui .long-field {
     max-width: 1000px;
 }
@@ -78,14 +78,13 @@ form.aui .aui-ss.long-field, .jiraform .aui-ss.long-field, form.aui .aui-ss.long
     max-width: 1000px;
 }
 
-/* Pour que le changement de taille de police n'affecte pas les listes déroulantes dans le détail d'une demande*/
+/* So that the dropdown lists (custom fields for example)  in a creation view are not corrupt by the text size change */
 form.aui .select {
     padding: 4px 5px;
 }
 
-/* Pour que les éléments de menu en haut restent en 14px
-   (JIRA ne sait de toutes façons pas exploiter l'espace restant dans le menu "Demandes" : il tronque
-   toujours les libellés de filtre au même endroit)
+/* So that the main dropdown lists at the top of the screen are not affected by the text size change (and stay with 14px)
+    (In any case, JIRA would not use the extra free space : it still truncates the filter labels the same way)
 */
 .aui-header, .aui-dropdown2.aui-style-default {
     font-size: 14px;

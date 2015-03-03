@@ -7,7 +7,7 @@ The goal was to see more information on the screen, by avoiding wasted space :
 - reduce the space between lines
 - add a grey background to improve separation of the different zones of a detail view
 - reduce the size of right column in detail view
-- increase the size of form fields in edit view
+- increase the size of form fields in creation view
 
 Tested on JIRA 6.3.15 with Firefox, IE 9 and Chrome, on 1280x1024 screens
 
