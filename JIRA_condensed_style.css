@@ -1,3 +1,12 @@
+/* 
+Custom CSS for JIRA, to "condense" the layout
+
+Tested on JIRA 6.3.15
+
+Code distributed under LGPL v3 license
+Author : Mossroy
+*/
+
 /* Pour que la bannière d'annonce ne fasse pas perdre de place en hauteur quand il n'y a pas d'annonce */
 #announcement-banner {
     padding: 0px;
