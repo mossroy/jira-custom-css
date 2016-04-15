@@ -10,6 +10,7 @@ The goal was to see more information on the screen, by avoiding wasted space :
 - increase the size of form fields in creation view
 
 Tested on JIRA 6.3.15 with Firefox, IE 9 and Chrome, on 1280x1024 screens
+It has been reported NOT to work on JIRA Cloud instances (because they seem to escape HTML tags in the announcement banner)
 
 Installation :
 - Put the CSS file somewhere on the server (where it can be reached through HTTP)
